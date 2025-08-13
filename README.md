@@ -23,6 +23,7 @@ PebblePath is a mobile app that helps users practice multiple-choice questions, 
 - **Habit:** Encourages daily use by letting users pick up where they left off and see progress.  
 - **Scope:** MVP focuses on local quiz play and progress tracking; future updates could include cloud sync, leaderboards, and subject-specific question packs.
 
+Youtube video demo: [https://youtube.com/shorts/XZjlaLRpKoQ?feature=share]
 ---
 
 ## Product Spec
