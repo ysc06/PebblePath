@@ -15,12 +15,15 @@
 		CB602BA52924735C006C6727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB602BA32924735C006C6727 /* LaunchScreen.storyboard */; };
 		CB602BAD292476F4006C6727 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB602BAC292476F4006C6727 /* TaskCell.swift */; };
 		CB9D9ED1292483BC00F8F51B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9D9ED0292483BC00F8F51B /* Task.swift */; };
-		ED7EC37629F0EFD000146345 /* TaskComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EC37529F0EFD000146345 /* TaskComposeViewController.swift */; };
 		EDE386D029F7892D007E714F /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE386CF29F7892D007E714F /* CalendarViewController.swift */; };
+		F2F71AF62E4BE22A00CD751E /* TaskComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F71AF52E4BE22A00CD751E /* TaskComposeViewController.swift */; };
+		F2F71AFB2E4BE60500CD751E /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F71AFA2E4BE5FD00CD751E /* PracticeViewController.swift */; };
+		F2F71AFC2E4BF70800CD751E /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F71AF72E4BE39900CD751E /* Questions.swift */; };
+		F2F71AFD2E4BFC0500CD751E /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = F2F71AF82E4BE40E00CD751E /* questions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB602B9529247359006C6727 /* ios101-project7-task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios101-project7-task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB602B9529247359006C6727 /* PebblePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebblePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB602B9829247359006C6727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB602B9A29247359006C6727 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CB602B9C29247359006C6727 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
@@ -30,8 +33,11 @@
 		CB602BA62924735C006C6727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB602BAC292476F4006C6727 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		CB9D9ED0292483BC00F8F51B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		ED7EC37529F0EFD000146345 /* TaskComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskComposeViewController.swift; path = "ios101-project7-task/TaskComposeViewController.swift"; sourceTree = SOURCE_ROOT; };
 		EDE386CF29F7892D007E714F /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		F2F71AF52E4BE22A00CD751E /* TaskComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskComposeViewController.swift; sourceTree = "<group>"; };
+		F2F71AF72E4BE39900CD751E /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		F2F71AF82E4BE40E00CD751E /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		F2F71AFA2E4BE5FD00CD751E /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		CB602B8C29247359006C6727 = {
 			isa = PBXGroup;
 			children = (
-				CB602B9729247359006C6727 /* ios101-project7-task */,
+				CB602B9729247359006C6727 /* PebblePath */,
 				CB602B9629247359006C6727 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,17 +62,20 @@
 		CB602B9629247359006C6727 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB602B9529247359006C6727 /* ios101-project7-task.app */,
+				CB602B9529247359006C6727 /* PebblePath.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB602B9729247359006C6727 /* ios101-project7-task */ = {
+		CB602B9729247359006C6727 /* PebblePath */ = {
 			isa = PBXGroup;
 			children = (
+				F2F71AFA2E4BE5FD00CD751E /* PracticeViewController.swift */,
+				F2F71AF72E4BE39900CD751E /* Questions.swift */,
+				F2F71AF82E4BE40E00CD751E /* questions.json */,
 				CB602B9C29247359006C6727 /* TaskListViewController.swift */,
 				CB602BAC292476F4006C6727 /* TaskCell.swift */,
-				ED7EC37529F0EFD000146345 /* TaskComposeViewController.swift */,
+				F2F71AF52E4BE22A00CD751E /* TaskComposeViewController.swift */,
 				CB9D9ED0292483BC00F8F51B /* Task.swift */,
 				EDE386CF29F7892D007E714F /* CalendarViewController.swift */,
 				CB602B9E29247359006C6727 /* Main.storyboard */,
@@ -76,15 +85,15 @@
 				CB602BA12924735C006C6727 /* Assets.xcassets */,
 				CB602BA62924735C006C6727 /* Info.plist */,
 			);
-			path = "ios101-project7-task";
+			path = PebblePath;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB602B9429247359006C6727 /* ios101-project7-task */ = {
+		CB602B9429247359006C6727 /* PebblePath */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB602BA92924735C006C6727 /* Build configuration list for PBXNativeTarget "ios101-project7-task" */;
+			buildConfigurationList = CB602BA92924735C006C6727 /* Build configuration list for PBXNativeTarget "PebblePath" */;
 			buildPhases = (
 				CB602B9129247359006C6727 /* Sources */,
 				CB602B9229247359006C6727 /* Frameworks */,
@@ -94,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = "ios101-project7-task";
+			name = PebblePath;
 			productName = "lab-task-squirrel";
-			productReference = CB602B9529247359006C6727 /* ios101-project7-task.app */;
+			productReference = CB602B9529247359006C6727 /* PebblePath.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB602B9029247359006C6727 /* Build configuration list for PBXProject "ios101-project7-task" */;
+			buildConfigurationList = CB602B9029247359006C6727 /* Build configuration list for PBXProject "PebblePath" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB602B9429247359006C6727 /* ios101-project7-task */,
+				CB602B9429247359006C6727 /* PebblePath */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB602BA52924735C006C6727 /* LaunchScreen.storyboard in Resources */,
+				F2F71AFD2E4BFC0500CD751E /* questions.json in Resources */,
 				CB602BA22924735C006C6727 /* Assets.xcassets in Resources */,
 				CB602BA029247359006C6727 /* Main.storyboard in Resources */,
 			);
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F71AFC2E4BF70800CD751E /* Questions.swift in Sources */,
 				EDE386D029F7892D007E714F /* CalendarViewController.swift in Sources */,
+				F2F71AFB2E4BE60500CD751E /* PracticeViewController.swift in Sources */,
 				CB602BAD292476F4006C6727 /* TaskCell.swift in Sources */,
-				ED7EC37629F0EFD000146345 /* TaskComposeViewController.swift in Sources */,
+				F2F71AF62E4BE22A00CD751E /* TaskComposeViewController.swift in Sources */,
 				CB602B9D29247359006C6727 /* TaskListViewController.swift in Sources */,
 				CB602B9929247359006C6727 /* AppDelegate.swift in Sources */,
 				CB602B9B29247359006C6727 /* SceneDelegate.swift in Sources */,
@@ -305,7 +317,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MA6H73S726;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ios101-project7-task/Info.plist";
+				INFOPLIST_FILE = PebblePath/Info.plist;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Library access is required to add a photo to complete a task.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -317,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.ios101-project7-task";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.PebblePath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,7 +346,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MA6H73S726;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ios101-project7-task/Info.plist";
+				INFOPLIST_FILE = PebblePath/Info.plist;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Library access is required to add a photo to complete a task.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -346,7 +358,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.ios101-project7-task";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.PebblePath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB602B9029247359006C6727 /* Build configuration list for PBXProject "ios101-project7-task" */ = {
+		CB602B9029247359006C6727 /* Build configuration list for PBXProject "PebblePath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB602BA72924735C006C6727 /* Debug */,
@@ -366,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB602BA92924735C006C6727 /* Build configuration list for PBXNativeTarget "ios101-project7-task" */ = {
+		CB602BA92924735C006C6727 /* Build configuration list for PBXNativeTarget "PebblePath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB602BAA2924735C006C6727 /* Debug */,

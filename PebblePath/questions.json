@@ -1,0 +1,73 @@
+[
+  {
+    "id": "q1",
+    "question": "Your manager asks for a market trends report by tomorrow. What is the most efficient first step?",
+    "options": [
+      "Check reliable online sources and bookmark relevant ones",
+      "Review last quarter’s market analysis from the company database",
+      "Use a printed market report from five years ago",
+      "Ask colleagues for personal opinions"
+    ],
+    "answerIndex": 0,
+    "explanation": "Efficient use of digital tools and current online sources demonstrates strong digital navigation skills (DL1.1).",
+    "isAnswered": false,
+    "isCorrect": false
+  },
+  {
+    "id": "q2",
+    "question": "You receive a client presentation containing multiple charts and videos. How can you ensure you understand the key points?",
+    "options": [
+      "Summarize charts and videos into bullet points",
+      "Review the visuals while noting key data trends",
+      "Copy slides into your report without changes",
+      "Discuss the content with a colleague for their interpretation"
+    ],
+    "answerIndex": 1,
+    "explanation": "Reviewing visuals while noting data trends is an effective first step to interpret and later summarize content (DL1.2).",
+    "isAnswered": false,
+    "isCorrect": false
+  },
+  {
+    "id": "q3",
+    "question": "You see a social media post claiming your company is changing its return policy. What should you do before sharing the information internally?",
+    "options": [
+      "Verify through official company channels",
+      "Check the company’s intranet for recent announcements",
+      "Ask a colleague if they’ve heard about it",
+      "Search for related updates on reputable news sites"
+    ],
+    "answerIndex": 3,
+    "explanation": "Searching reputable news sites can help verify external claims, but official company confirmation should follow (DL1.3).",
+    "isAnswered": false,
+    "isCorrect": false
+  },
+  {
+    "id": "q4",
+    "question": "You are creating a promotional video for a product launch. What is the best way to manage the media you use?",
+    "options": [
+      "Use licensed stock footage with credit",
+      "Request permission from content owners before using their work",
+      "Download videos from free sources without checking licenses",
+      "Adapt competitor videos with significant edits"
+    ],
+    "answerIndex": 1,
+    "explanation": "Requesting permission ensures legal use of media and maintains professional standards (DL2.1).",
+    "isAnswered": false,
+    "isCorrect": false
+  },
+  {
+    "id": "q5",
+    "question": "You’ve been working online for long hours to meet a deadline. What is the best way to maintain productivity and health?",
+    "options": [
+      "Take short breaks and manage screen use",
+      "Adjust your schedule to include earlier start times",
+      "Rotate between tasks to reduce mental fatigue",
+      "Limit meetings to essential discussions"
+    ],
+    "answerIndex": 2,
+    "explanation": "Rotating between tasks can help reduce mental fatigue while maintaining productivity (DL4.3).",
+    "isAnswered": false,
+    "isCorrect": false
+  }
+]
+
